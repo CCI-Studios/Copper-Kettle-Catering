@@ -1,0 +1,18 @@
+name = Copper Kettle Catering
+description = Copper Kettle Catering Custom
+core = 7.x
+
+scripts[] = js/popups.js
+scripts[] = js/highslide-full.js
+
+stylesheets[all][] = stylesheets/screen.css
+stylesheets[all][] = stylesheets/highslide.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar
+regions[widgets] = Widgets
+regions[footer] = Footer
+
