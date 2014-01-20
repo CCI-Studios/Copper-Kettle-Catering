@@ -182,7 +182,7 @@ td
 			background-color:#874e00;
 			width:100%;
 			min-width:100px;
-			box-shadow:0 2px 10px rgba(0,0,0,0.75);
+			box-shadow:0 4px 4px rgba(0, 0, 0, 0.1), -4px 4px 4px rgba(0, 0, 0, 0.3), 4px 4px 4px rgba(0, 0, 0, 0.3);
 
 			li 
 			{
@@ -224,10 +224,12 @@ td
 	#site-by-cci a 
 	{
 		color:#330000;
+		text-decoration:none;
 
 		&:hover
 		{
 			color:#CC6600;
+			text-decoration:underline;
 		}
 	}
 }
@@ -255,6 +257,74 @@ td
 	margin-bottom:0;
 }
 
+.front
+{
+	#page 
+	{
+		background:#efd6a4;
+	}
+
+	#navigation 
+	{
+		box-shadow:none;
+	}
+
+	#footer
+	{
+		display:none;
+	}
+
+	#block-system-main
+	{
+		padding:80px 0;
+
+		h1 
+		{
+			display:none;
+		}
+
+		.catering,
+		.tents-and-events
+		{
+			float:left;
+			width:48%;
+			text-align:center;
+
+			img 
+			{
+				height:auto!important;
+				width:100%!important;
+				max-width:307px;
+				margin-bottom:0.8em;
+			}
+
+			p 
+			{
+				width:100%;
+				max-width:307px;
+				margin:0 auto 0.8em auto;
+				text-align:left;
+			}
+		}
+
+		.catering
+		{
+			margin-right:4%;
+		}
+	}
+}
+
+body.page-node-1 
+{
+	#page-title
+	{
+		display:none;
+	}
+}
+
+
+
+
 @media screen and (max-width:900px)
 {
 	#header 
@@ -277,5 +347,26 @@ td
 			}
 		}
 	}
+
+	#block-system-main-menu > .content > ul
+	{
+		text-align:center;
+	}
 }
 
+
+@media screen and (max-width:480px)
+{
+	.front #block-system-main
+	{
+		padding:0;
+
+		.catering,
+		.tents-and-events
+		{
+			width:100%;
+			margin-bottom:20px;
+			margin-right:0;
+		}
+	}
+}

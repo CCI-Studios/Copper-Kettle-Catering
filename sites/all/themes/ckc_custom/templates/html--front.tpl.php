@@ -48,7 +48,7 @@
 <head>
   <?php print $head; ?>
   <meta name="viewport" content="width=device-width">
-  <title><?php print $head_title; ?> serving Sarnia, London and Chatham Ontario</title>
+  <title><?php print $head_title_array['name']; ?> serving Sarnia, London and Chatham Ontario</title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
