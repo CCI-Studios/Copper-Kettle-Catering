@@ -111,7 +111,7 @@
     <div id="footer"><div class="section">
       <?php print render($page['footer']); ?>
       <div id="copyright">&copy; <?php print date('Y'); ?> Copper Kettle Catering Co.</div>
-      <div id="site-by-cci">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></div>
+      <div id="site-by-cci"><a href="http://www.hypertextdigital.com/" target="_blank">website developed by hypertextdigital publishing</a></div>
     </div></div> <!-- /.section, /#footer -->
 
 
