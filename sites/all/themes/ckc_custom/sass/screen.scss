@@ -276,8 +276,6 @@ td
 
 	#block-system-main
 	{
-		padding:80px 0;
-
 		h1 
 		{
 			display:none;
@@ -290,7 +288,7 @@ td
 			width:48%;
 			text-align:center;
 
-			img 
+			a img 
 			{
 				height:auto!important;
 				width:100%!important;
@@ -309,6 +307,7 @@ td
 			a 
 			{
 				text-decoration:none;
+				display:block;
 			}
 		}
 
