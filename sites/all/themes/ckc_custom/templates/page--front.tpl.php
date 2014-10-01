@@ -77,7 +77,7 @@
 
 
     <div id="header"><div class="section clearfix">
-      <a href="/home" title="<?php print t('Home'); ?>" rel="home" id="logo">
+      <a href="/" title="<?php print t('Home'); ?>" rel="home" id="logo">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" width="468" height="135" />
       </a>
 
