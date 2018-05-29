@@ -7,6 +7,15 @@ $aliases['dev'] = array(
 	'remote-user'=> 'staging',
 	'path-aliases'=> array(
 		'%files'=> 'sites/default/files',
-	),
-	'ssh-options'=> '-p 37241'
+	)
+);
+
+$aliases['live'] = array(
+	'uri'=> 'copper-kettle-catering.c',
+	'root' => '/home/ckc/subdomains/live/public_html',
+	'remote-host'=> 'host.ccistudios.com',
+	'remote-user'=> 'ckc',
+	'path-aliases'=> array(
+		'%files'=> 'sites/default/files',
+	)
 );
